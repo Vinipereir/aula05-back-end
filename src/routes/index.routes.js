@@ -11,6 +11,6 @@ routes.get("/2tds2", (req, res) => {
     return res.status(200).send({ message: "Hello , Word"})
 })
 
-routes.use("/emocoes", emocoesRoutes);
+routes.use("/emocoes", emocoesRoutes)
 
 export default routes;
